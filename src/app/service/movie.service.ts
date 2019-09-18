@@ -8,10 +8,10 @@ export class MovieService {
 
   movies: Movie[] = [
     {name: 'La isla siniestra', year: 2010, actores: 'leonardo DiCaprio'},
-    {name: 'Perdida', year: 2014, actores: 'juan'},
-    {name: 'The number 23', year: 2007, actores: 'juan'},
-    {name: 'El Origen', year: 2010, actores: 'juan'},
-    {name: 'El maquinista', year: 2004, actores: 'juan'}
+    {name: 'Perdida', year: 2014, actores: 'Kimberly Jan Dickens'},
+    {name: 'The number 23', year: 2007, actores: 'Jim Carrey'},
+    {name: 'El Origen', year: 2010, actores: 'Marion Cotillard'},
+    {name: 'El maquinista', year: 2004, actores: 'Christian Bale'}
   ];
 
   constructor() { }
