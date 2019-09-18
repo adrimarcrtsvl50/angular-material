@@ -8,7 +8,7 @@ import { MovieService } from '../service/movie.service';
   styleUrls: ['./movie-list.component.scss']
 })
 export class MovieListComponent {
-  displayedColumns: string[] = ['name', 'year'];
+  displayedColumns: string[] = ['name', 'year', 'actores'];
   movies: Movie[];
 
   constructor(private movieService: MovieService) { 
